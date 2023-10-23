@@ -1,0 +1,183 @@
+{
+    "challenges": [
+      {
+        "id": 1,
+        "name": "30-Day Fitness Challenge",
+        "description": "Get fit in 30 days with a daily workout routine!",
+        "startDate": "2023-11-01",
+        "endDate": "2023-11-30",
+        "creator": {
+          "id": 101,
+          "username": "john_doe"
+        },
+        "participants": [
+          201,
+          203,
+          202
+        ],
+        "isPrivate": false,
+        "invitedUsers": [
+          {
+            "userId": 202,
+            "status": "accepted"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Book Reading Challenge",
+        "description": "Read 20 books in a year!",
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31",
+        "creator": {
+          "id": 102,
+          "username": "alice_wonder"
+        },
+        "participants": [
+          203,
+          204
+        ],
+        "isPrivate": true
+      },
+      {
+        "id": 4,
+        "name": "Cooking Challenge",
+        "description": "Learn to cook a new dish every week!",
+        "startDate": "2023-03-01",
+        "endDate": "2023-05-31",
+        "creator": {
+          "id": 104,
+          "username": "chef_extraordinaire"
+        },
+        "participants": [],
+        "isPrivate": true
+      },
+      {
+        "id": 5,
+        "name": "Coding Challenge",
+        "description": "Solve a coding problem every day!",
+        "startDate": "2023-02-01",
+        "endDate": "2023-02-28",
+        "creator": {
+          "id": 105,
+          "username": "code_ninja"
+        },
+        "participants": [],
+        "isPrivate": false
+      },
+      {
+        "id": 6,
+        "name": "Yoga Challenge",
+        "description": "Practice yoga for flexibility and relaxation!",
+        "startDate": "2023-09-01",
+        "endDate": "2023-09-30",
+        "creator": {
+          "id": 106,
+          "username": "yoga_guru"
+        },
+        "participants": [],
+        "isPrivate": false
+      },
+      {
+        "id": 7,
+        "name": "Travel Challenge",
+        "description": "Visit a new place every month!",
+        "startDate": "2023-04-01",
+        "endDate": "2023-12-31",
+        "creator": {
+          "id": 107,
+          "username": "wanderlust"
+        },
+        "participants": [],
+        "isPrivate": true
+      },
+      {
+        "id": 8,
+        "name": "Art Challenge",
+        "description": "Create a piece of art every week!",
+        "startDate": "2023-07-01",
+        "endDate": "2023-07-31",
+        "creator": {
+          "id": 108,
+          "username": "artistic_soul"
+        },
+        "participants": [],
+        "isPrivate": false
+      },
+      {
+        "id": 9,
+        "name": "Language Challenge",
+        "description": "Learn a new language in 90 days!",
+        "startDate": "2023-01-15",
+        "endDate": "2023-04-15",
+        "creator": {
+          "id": 109,
+          "username": "polyglot"
+        },
+        "participants": [],
+        "isPrivate": false
+      },
+      {
+        "id": 10,
+        "name": "Writing Challenge",
+        "description": "Write a short story every day for a month!",
+        "startDate": "2023-08-01",
+        "endDate": "2023-08-31",
+        "creator": {
+          "id": 110,
+          "username": "wordsmith"
+        },
+        "participants": [],
+        "isPrivate": true
+      },
+      {
+        "id": 11,
+        "name": "New Challenge",
+        "description": "This is a new challenge",
+        "startDate": "2023-12-01",
+        "endDate": "2023-12-31",
+        "creator": {
+          "id": 101,
+          "username": "john_doe"
+        },
+        "participants": [],
+        "isPrivate": false
+      },
+      {
+        "id": 12,
+        "name": "New Challenge",
+        "description": "This is a new challenge",
+        "startDate": "2023-12-01",
+        "endDate": "2023-12-31",
+        "creator": {
+          "id": 101,
+          "username": "john_doe"
+        },
+        "participants": [],
+        "isPrivate": false
+      }
+    ],
+    "users": [
+      {
+        "id": 202,
+        "username": "mike_jones",
+        "challenges": [
+          1
+        ]
+      },
+      {
+        "id": 203,
+        "username": "bob_reader",
+        "challenges": [
+          2
+        ]
+      },
+      {
+        "id": 204,
+        "username": "susan_bookworm",
+        "challenges": [
+          2
+        ]
+      }
+    ]
+  }
