@@ -1,7 +1,7 @@
 // challengeActions.js
 import { createChallenge } from '../services/api';
 import { FETCH_CHALLENGES, CREATE_CHALLENGE } from './challengeActionTypes'; // Correct the path based on your project structure
-import { getChallenges } from '../services/api';
+import { getChallenges } from '../services/mockApi';
 
 export function fetchChallenges() {
   return (dispatch) => {
